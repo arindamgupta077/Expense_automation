@@ -1,0 +1,15 @@
+{
+    "name": "expense-automation",
+    "version": "1.0.0",
+    "description": "Automated scheduler for recurring expenses",
+    "main": "automate.js",
+    "scripts": {
+      "start": "node automate.js"
+    },
+    "dependencies": {
+      "@supabase/supabase-js": "^2.39.0",
+      "dotenv": "^16.3.1",
+      "node-cron": "^3.0.3"
+    },
+    "license": "MIT"
+  }
